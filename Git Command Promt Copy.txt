@@ -1,0 +1,100 @@
+
+Sinchana@Fiametta MINGW64 ~/OneDrive/Desktop/M1088149_Milestone_assessment_3
+$ git init
+Initialized empty Git repository in C:/Users/HP/OneDrive/Desktop/M1088149_Milestone_assessment_3/.git/
+
+Sinchana@Fiametta MINGW64 ~/OneDrive/Desktop/M1088149_Milestone_assessment_3 (master)
+$ git add -A
+
+Sinchana@Fiametta MINGW64 ~/OneDrive/Desktop/M1088149_Milestone_assessment_3 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   MileStone_M1088149/.classpath
+        new file:   MileStone_M1088149/.project
+        new file:   MileStone_M1088149/.settings/org.eclipse.jdt.core.prefs
+        new file:   MileStone_M1088149/.settings/org.eclipse.m2e.core.prefs
+        new file:   MileStone_M1088149/pom.xml
+        new file:   MileStone_M1088149/src/com/assesment/milestone/M1088149.java
+        new file:   MileStone_M1088149/target/classes/com/assesment/milestone/M1088149.class
+
+
+Sinchana@Fiametta MINGW64 ~/OneDrive/Desktop/M1088149_Milestone_assessment_3 (master)
+$ git commit -m "This is the repository where my milestone exam is saved in. MID: M1088149"
+[master (root-commit) 009c2be] This is the repository where my milestone exam is saved in. MID: M1088149
+ 7 files changed, 168 insertions(+)
+ create mode 100644 MileStone_M1088149/.classpath
+ create mode 100644 MileStone_M1088149/.project
+ create mode 100644 MileStone_M1088149/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 MileStone_M1088149/.settings/org.eclipse.m2e.core.prefs
+ create mode 100644 MileStone_M1088149/pom.xml
+ create mode 100644 MileStone_M1088149/src/com/assesment/milestone/M1088149.java
+ create mode 100644 MileStone_M1088149/target/classes/com/assesment/milestone/M1088149.class
+
+Sinchana@Fiametta MINGW64 ~/OneDrive/Desktop/M1088149_Milestone_assessment_3 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Sinchana@Fiametta MINGW64 ~/OneDrive/Desktop/M1088149_Milestone_assessment_3 (master)
+$ git log --decorate --oneline --graph --all
+* 009c2be (HEAD -> master) This is the repository where my milestone exam is saved in. MID: M1088149
+
+Sinchana@Fiametta MINGW64 ~/OneDrive/Desktop/M1088149_Milestone_assessment_3 (master)
+$ git remote add origin https://github.com/sinchana-shetty-r/M1088149.git
+
+Sinchana@Fiametta MINGW64 ~/OneDrive/Desktop/M1088149_Milestone_assessment_3 (master)
+$ git remote -v
+origin  https://github.com/sinchana-shetty-r/M1088149.git (fetch)
+origin  https://github.com/sinchana-shetty-r/M1088149.git (push)
+
+Sinchana@Fiametta MINGW64 ~/OneDrive/Desktop/M1088149_Milestone_assessment_3 (master)
+$ git pull origin master
+fatal: couldn't find remote ref master
+
+Sinchana@Fiametta MINGW64 ~/OneDrive/Desktop/M1088149_Milestone_assessment_3 (master)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+Sinchana@Fiametta MINGW64 ~/OneDrive/Desktop/M1088149_Milestone_assessment_3 (master)
+$ git branch -r
+
+Sinchana@Fiametta MINGW64 ~/OneDrive/Desktop/M1088149_Milestone_assessment_3 (master)
+$ git branch -a
+* master
+
+Sinchana@Fiametta MINGW64 ~/OneDrive/Desktop/M1088149_Milestone_assessment_3 (master)
+$ git push origin master
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (20/20), 5.10 KiB | 869.00 KiB/s, done.
+Total 20 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/sinchana-shetty-r/M1088149.git
+ * [new branch]      master -> master
+
+Sinchana@Fiametta MINGW64 ~/OneDrive/Desktop/M1088149_Milestone_assessment_3 (master)
+$ git branch -a
+* master
+  remotes/origin/master
+
+Sinchana@Fiametta MINGW64 ~/OneDrive/Desktop/M1088149_Milestone_assessment_3 (master)
+$ git log --oneline --decorate --all --graph
+* 009c2be (HEAD -> master, origin/master) This is the repository where my milestone exam is saved in. MID: M1088149
+
+Sinchana@Fiametta MINGW64 ~/OneDrive/Desktop/M1088149_Milestone_assessment_3 (master)
+$

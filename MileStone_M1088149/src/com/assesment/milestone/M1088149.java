@@ -16,7 +16,6 @@ public class M1088149 {
 		
 		driver.get("https://www.moneycontrol.com/");
 		
-		driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize();
 
 		Actions a = new Actions(driver);
